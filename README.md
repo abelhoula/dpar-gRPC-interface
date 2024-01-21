@@ -9,7 +9,10 @@
 Dapr's service invocation feature enhances cross-application communication by providing seamless methods to call functions between microservices applications or external HTTP endpoints.
 * HTTP Service Invocation:
   If your application already utilizes HTTP protocols, incorporating Dapr is straightforward. Simply include the Dapr HTTP header, dapr-app-id, without the need to alter existing endpoint URLs. This allows you to quickly integrate service invocation capabilities. For detailed information, refer to [Invoke Services using HTTP](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/howto-invoke-discover-services/).
+
+
 * gRPC Service Invocation:
+  Dapr seamlessly integrates with gRPC, allowing users to interact with their existing proto services without the need for additional Dapr SDKs or custom gRPC services. Explore the step-by-step guide in the Dapr and gRPC tutorial for more details.
 ### Description
 The provided Go code implements a Dapr application featuring service gRPC invocation capabilities. The key functionalities include:
 
