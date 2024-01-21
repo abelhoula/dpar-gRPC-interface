@@ -12,7 +12,7 @@ Dapr's service invocation feature enhances cross-application communication by pr
 
 
 * gRPC Service Invocation:
-  Dapr seamlessly integrates with gRPC, allowing users to interact with their existing proto services without the need for additional Dapr SDKs or custom gRPC services. Explore the step-by-step guide in the Dapr and gRPC tutorial for more details.
+  Dapr seamlessly integrates with gRPC, allowing users to interact with their existing proto services without the need for additional Dapr SDKs or custom gRPC services. Explore [the step-by-step guide in the Dapr and gRPC tutorial](https://chat.openai.com/c/051f06f4-a4a9-47ba-a58a-8070a609f5eb#link-to-grpc-docs) for more details.
 ### Description
 The provided Go code implements a Dapr application featuring service gRPC invocation capabilities. The key functionalities include:
 
